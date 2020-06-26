@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+ }
+ #welcome{
+    background-image: url(../img/welcome-img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#welcome-text{
+    z-index: 2;
+    background-color:  black;
+    opacity: 0.7; 
+}
+.big-text{
+    background: linear-gradient(to right,#6A2BC2,#F44839);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.tablink {
+    background-image: linear-gradient( to right,#6A2BC2,#F44839);
+    cursor: pointer;
+    font-size: 17px;
+    float: left;
+    height: 50px;    
+}
+.movie-img{
+    height: 400px;
+    width: auto;
+}
+#registration{
+    background-image: url(../img/registration-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#registration-form{
+    background-image: url(../img/typing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+}
+#registration-form input{
+    border: none;
+    border-bottom:2px solid white;
+    background: transparent;
+}
+#registration-form .btn{
+    background-image: linear-gradient(to right,#6A2BC2,#F44839);
+    cursor: pointer;  
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    font-size: 24px;
+    font-weight: 800;
+}  
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+} 
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+.news-card img{
+    width: 200px;
+    height: 200px;   
+}
+ .news-card{
+    width: 220px;
+    height: 300px;
+} 
+#news{
+    background-image: linear-gradient(to right,#6A2BC2,#F44839);
+}
+.footer-div img{
+    width:250px;
+}

@@ -1,0 +1,27 @@
+.header{
+    background-image: linear-gradient(to right,#6A2BC2,#F44839);
+    color: white;
+    min-height: 85px;
+}
+.nav-link{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+.nav-link:hover{
+    border-bottom: 5px solid white;
+   color: white;
+}
+.header .logo{
+    background-color: white;
+    /* add slanting behaviour */
+    transform: skew(25deg);
+    margin-left: -55px;
+    width: 300px;
+    height: 85px;    
+}
+.logo-img{
+    transform: skew(-25deg);
+    height: 48px;
+    width: 105px;
+}
